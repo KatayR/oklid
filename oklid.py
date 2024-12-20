@@ -18,4 +18,4 @@ for i in range(len(points)):
 
 # minimum mesafenin bulunması
 min_distance = min(distances)
-print("Minn mesafe:", min_distance)
+print("Min mesafe:", min_distance)
