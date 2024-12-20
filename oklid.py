@@ -1,7 +1,7 @@
 import math
 
 # noktaları tanımlama
-points = [(1,2 ), (3,4), (5,6), (7,8)]
+points = [(1,2 ), (3,4), (5,6), (7,8), (9,10)]
 
 # mesafe için fonksiyon
 def euclideanDistance(point1, point2):
@@ -18,4 +18,4 @@ for i in range(len(points)):
 
 # minimum mesafenin bulunması
 min_distance = min(distances)
-print("Min mesafe:",min_distance)
+print("Asgari mesafe:", min_distance)
